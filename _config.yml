@@ -1,0 +1,13 @@
+# Site settings
+title: NetBit Website
+email: mail@netbit.me
+description: > # this means to ignore newlines until "baseurl:"
+  NetBit is about software development, both open and closed source.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://netbit.me" # the base hostname & protocol for your site
+twitter_username: 
+github_username:  bitsofcoal
+
+# Build settings
+markdown: kramdown
+highlighter: pygments

@@ -1,15 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>NetBit.Me Coming Soon</title>
-    <script src="//use.typekit.net/mvh5zvb.js"></script>
-    <script>try{Typekit.load();}catch(e){}</script>
-  </head>
-  <body>
-    <div style="text-align: center; font-family: 'bree-serif',sans-serif; font-style: normal; font-weight: 400;">
-      NetBit.Me is coming soon.<br />
-      Thank you for visiting!
-    </div>
-  </body>
-</html>
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Posts</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
