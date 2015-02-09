@@ -1,0 +1,24 @@
+<InterfaceVersion>
+	<DownloadLinks>
+		<win>
+			<version>1916</version>
+			<url>https://highfidelity.io/download/win/1916</url>
+		</win>
+		<mac>
+			<version>1785</version>
+			<url>https://highfidelity.io/download/mac/1785</url>
+		</mac>
+	</DownloadLinks>
+</InterfaceVersion>
+<StackVersion>
+	<DownloadLinks>
+                <win>
+                        <version>1</version>
+                        <url>https://downloadurl.here/stuff/win</url>
+                </win>
+                <mac>
+                        <version>1</version>
+                        <url>https://downloadurl.here/stuff/mac</url>
+                </mac>
+	</DownloadLinks>
+</StackVersion>
